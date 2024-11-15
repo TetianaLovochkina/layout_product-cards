@@ -1,0 +1,129 @@
+.card {
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  max-width: 200px;
+  max-height: 408px;
+  padding: 32px 16px 16px;
+}
+
+.card__title {
+  color: #060b35;
+  margin-top: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__code {
+  color: #616070;
+  padding-top: 4px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__review {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-top: 16px;
+  display: flex;
+}
+
+.card__review-text {
+  text-align: right;
+  width: 53px;
+  font-size: 10px;
+}
+
+.card__price {
+  color: #060b35;
+  letter-spacing: 0%;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__price-text {
+  color: #616070;
+  letter-spacing: 0%;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card__value {
+  justify-content: space-between;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.card__button {
+  color: #fff;
+  background-color: #00acdc;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color .5s, background-color .5s;
+  display: flex;
+}
+
+.card__button:hover {
+  color: #00acdc;
+  background-color: #fff;
+}
+
+.responsive {
+  width: 160px;
+  height: 134px;
+  margin: 0 auto;
+  display: block;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background: url("star-active.2be54011.svg") center / contain no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  background: url("star.fa806e3c.svg") center / contain no-repeat;
+  margin-right: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+h2 {
+  unicode-bidi: isolate;
+  margin-block: .83em;
+  margin-inline: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+}
+
+p {
+  unicode-bidi: isolate;
+  margin-block: 1em;
+  margin-inline: 0;
+  display: block;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
